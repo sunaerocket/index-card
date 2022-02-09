@@ -1,0 +1,14 @@
+.navigation {
+  width: 5in;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.navigation > svg {
+  cursor: pointer;
+}
+
+.navigation > svg:hover {
+  color: #0070f3;
+}

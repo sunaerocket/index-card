@@ -1,0 +1,37 @@
+.tag.container {
+  width: 5in;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  padding: 6px 20px;
+  background-color: #f4f7f8;
+  box-shadow: 0 1px 1px rgb(0 0 0 / 10%);
+}
+
+.tag.list {
+  background-color: #fff;
+  list-style: none;
+  border: solid 1px #eee;
+  box-shadow: 0 1px 1px rgb(0 0 0 / 10%);
+  border-radius: 3rem;
+  margin: 0.25rem 6px 0.25rem 0;
+  padding: 0.5rem;
+  font-size: 0.75rem;
+  letter-spacing: 0.05rem;
+  line-height: 0.5;
+  text-shadow: 0 0 0.1px rgb(0 0 0 / 30%);
+  cursor: pointer;
+}
+
+.tag.list:hover {
+  font-weight: bold;
+  border: solid 1px #0070f3;
+  color: #0070f3;
+}
+
+.tag.list.current {
+  font-weight: bolder;
+  border: solid 2px #0070f3;
+  color: #0070f3;
+}
