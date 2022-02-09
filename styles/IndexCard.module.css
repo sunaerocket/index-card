@@ -39,3 +39,7 @@
   list-style: none;
   padding: 1rem;
 }
+
+.card .back > ul > li > a:hover {
+  color: #0070f3;
+}
