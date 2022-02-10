@@ -11,12 +11,13 @@ import styles from '../styles/Home.module.css';
 
 export default function Home({ cards, tags }) {
   const [currentTag, setCurrentTag] = useState('all');
+  const [currentCards, setCurrentCards] = useState(cards);
 
   const handleTagClick = (tag) => {
     setCurrentTag(tag);
+    const filteredCards = tag === 'all' ? cards : cards.filter((card) => card.tags.includes(tag));
+    setCurrentCards(filteredCards);
   };
-
-  const filteredCards = currentTag === 'all' ? cards : cards.filter((card) => card.tags.includes(currentTag));
 
   return (
     <div className={styles.container}>
@@ -29,7 +30,7 @@ export default function Home({ cards, tags }) {
       <main className={styles.main}>
         <TagContainer tags={tags} currentTag={currentTag} onTagClick={handleTagClick} />
         <div className={styles.grid}>
-          <IndexCardContainer cards={filteredCards} />
+          <IndexCardContainer cards={currentCards} />
         </div>
       </main>
     </div>
