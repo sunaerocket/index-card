@@ -33,11 +33,17 @@
 
 .card .back {
   transform: rotateY(180deg);
+  overflow: scroll;
+  height: inherit;
 }
 
 .card .back > ul {
   list-style: none;
   padding: 1rem;
+}
+
+.card .back > ul > li {
+  margin-bottom: 0.25rem;
 }
 
 .card .back > ul > li > a:hover {
