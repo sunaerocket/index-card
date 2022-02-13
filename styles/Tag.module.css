@@ -7,6 +7,8 @@
   padding: 6px 20px;
   background-color: #f4f7f8;
   box-shadow: 0 1px 1px rgb(0 0 0 / 10%);
+  flex-wrap: nowrap;
+  overflow-x: auto;
 }
 
 .tag.list {
@@ -22,6 +24,7 @@
   line-height: 0.5;
   text-shadow: 0 0 0.1px rgb(0 0 0 / 30%);
   cursor: pointer;
+  flex: 0 0 auto;
 }
 
 .tag.list:hover {
