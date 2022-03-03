@@ -7,8 +7,8 @@
   border-radius: 0.25rem;
   box-shadow: 0 0.25rem 0.5rem rgba(0, 0, 0, 0.1);
   transform-style: preserve-3d;
-  width: 5in;
-  height: 3in;
+  width: 1000px;
+  height: 600px;
   transition: 150ms;
   cursor: pointer;
   transform: perspective(1000px) rotateY(var(--rotate-y, 0)) translateY(var(--translate-y, 0));
@@ -26,7 +26,7 @@
 .card .front,
 .card .back {
   position: absolute;
-  padding: 1rem;
+  padding: 32px;
   -webkit-backface-visibility: hidden;
   backface-visibility: hidden;
 }
@@ -37,12 +37,20 @@
   height: inherit;
 }
 
-.card .back > ul {
-  list-style: none;
+.card .back h2 {
+  margin-top: 0;
+}
+
+.card .back p {
+  margin: 0;
+  margin-bottom: 2rem;
+}
+
+.card .back ul {
   padding: 1rem;
 }
 
-.card .back > ul > li {
+.card .back li {
   margin-bottom: 0.25rem;
 }
 
