@@ -46,4 +46,4 @@ tags:
 
 ### 참고자료
 
-- [[OS] 프로세스와 스레드의 차이](https://gmlwjd9405.github.io/2018/09/14/process-vs-thread.html)
+- [Blog, Heee's Development Blog - [OS] 프로세스와 스레드의 차이](https://gmlwjd9405.github.io/2018/09/14/process-vs-thread.html)

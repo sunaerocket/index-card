@@ -46,6 +46,6 @@ tags:
 
 ### 참고자료
 
-- [트랜잭션이란?](https://github.com/brave-people/brave-tech-interview/blob/main/contents/database.md)
-- [16. Isolation Level에 따른 트랜잭션 처리 방법](https://mysqldba.tistory.com/334)
-- [[DB] 트랜잭션 격리 수준(Transaction Isolation Level)](https://dar0m.tistory.com/225)
+- [Github, brave-people/brave-tech-interview - 트랜잭션이란?](https://github.com/brave-people/brave-tech-interview/blob/main/contents/database.md)
+- [Blog, MySQL DBA를 위한 - 16. Isolation Level에 따른 트랜잭션 처리 방법](https://mysqldba.tistory.com/334)
+- [Blog, DR-Kim - [DB] 트랜잭션 격리 수준(Transaction Isolation Level)](https://dar0m.tistory.com/225)

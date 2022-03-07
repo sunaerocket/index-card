@@ -37,6 +37,6 @@ tags:
 
 ### 참고자료
 
-- [동기, 비동기에 대해 설명해보고 장단점을 각각 설명해보세요](https://github.com/brave-people/brave-tech-interview/blob/main/contents/language.md)
-- [멍토의 Blocking vs Non-Blocking, Sync vs Async](https://www.youtube.com/watch?v=oEIoqGd-Sns)
-- [[네트워크] - Blocking I/O & Non-Blocking I/O](https://rok93.tistory.com/entry/%EB%84%A4%ED%8A%B8%EC%9B%8C%ED%81%AC-Blocking-IO-Non-Blocking-IO)
+- [Github, brave-people/brave-tech-interview - 동기, 비동기에 대해 설명해보고 장단점을 각각 설명해보세요](https://github.com/brave-people/brave-tech-interview/blob/main/contents/language.md)
+- [Youtube, 우아한Tech - Blocking vs Non-Blocking, Sync vs Async](https://www.youtube.com/watch?v=oEIoqGd-Sns)
+- [Blog, 티끌모아 로키산맥 - [네트워크] - Blocking I/O & Non-Blocking I/O](https://rok93.tistory.com/entry/%EB%84%A4%ED%8A%B8%EC%9B%8C%ED%81%AC-Blocking-IO-Non-Blocking-IO)
