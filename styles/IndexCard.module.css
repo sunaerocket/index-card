@@ -57,3 +57,19 @@
 .card .back > ul > li > a:hover {
   color: #0070f3;
 }
+
+.card .back blockquote {
+  margin: 0;
+  padding: 0;
+  border-left: 0.25rem solid #0070f3;
+  border-radius: 0;
+  background-color: #f0f0f0;
+  color: #0070f3;
+  padding-left: 1rem;
+}
+
+.card .back code {
+  background-color: #f0f0f0;
+  color: #0070f3;
+  font-weight: bolder;
+}
