@@ -73,3 +73,7 @@
   color: #0070f3;
   font-weight: bolder;
 }
+
+.card .back img {
+  width: 900px;
+}
