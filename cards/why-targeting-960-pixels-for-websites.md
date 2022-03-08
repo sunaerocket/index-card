@@ -48,3 +48,5 @@ tags:
 - [Stackoverflow, Why width 960px?](https://stackoverflow.com/questions/7415758/why-width-960px)
 
 - [Blog, What are the best screen sizes for responsive web design in 2022?](https://www.hobo-web.co.uk/best-screen-size/)
+
+- [Docs, Responsive layout grid](https://material.io/design/layout/responsive-layout-grid.html#columns-gutters-and-margins)
